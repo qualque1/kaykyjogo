@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogos 2° DS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='jquery.min.js'></script>
+    <script src="findtextindocument.js"></script>
+</head>
+<body>
+    <table border="2" bgcolor="blue">
+        <td width="150" height="120">
+            <marquee onmouseover="this.stop()" onmouseout="this.start()" height="120" direction="up">
+                <a href="https://www.facebook.com/ceepseijihatanda/?locale=pt_BR"><img width="150" height="120" src="imagens/ceep.jpg"></a>
+                <a href="https://www.instagram.com/ceepibaiti/"><img width="150" height="120" src="imagens/ceep2.jpeg"></a>
+                <a href="https://www.nre.seed.pr.gov.br/modules/galeria/detalhe.php?foto=7184&evento=1254"><img width="150" height="120" src="imagens/ceep3.jpg.jpg"></a>
+                
+                </marquee>
+
+        </td>
+
+    </table>
+
+    <p>
+    <div class="find-in-document-container">
+        <input type="text" id="txt-to-find" value=""
+    oninput="findInDocument({position: 0})"/>
+
+    <input type="button" value="Prev"
+    oninput="findInDocument({position: -1})"/>
+
+    <input type="button" value="Next"
+    oninput="findInDocument({position: 1})"/>
+
+    </div>
+
+    <div id="style1">
+        <div class="box">
+            <a href="https://editor.p5js.org/kayky.yamamoto/full/2vLBh5TFb">
+                <img src="freeway.png" border="5" width="300" height="300"
+                hspace="30" vspace="70" alt="freeway.jpg">
+            </a>
+            <span>Feito por: Kayky</span>
+            <span>Freeway</span>
+        </div>
+
+        <div class="box">
+            <a href="https://editor.p5js.org/francisco.moraes.bueno/full/s2uMzXH2U">
+                <img src="pac.jpg" border="5" width="300" height="300"
+                hspace="30" vspace="70" alt="pac.jpg">
+            </a>
+            <span>Feito por: Kayky</span>
+            <span>Freeway</span>
+        </div>
+
+
+    </div>
+    </p>
+    
+</body>
+</html>
